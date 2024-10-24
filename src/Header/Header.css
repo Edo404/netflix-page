@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Spazia il contenuto (logo e bottoni) */
+    height: 100%; /* Assicurati che il contenitore abbia altezza per l'allineamento */
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-left: 10%;
+}
+
+.btns {
+    display: inline-flex; /* Migliore per pulsanti */
+    align-items: center; /* Allinea verticalmente al centro */
+    margin-right: 10%;
+}
+
+.translate, .sign-in {
+    font-size: 1em;
+    border-radius: 5px;
+    font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto, Ubuntu', 'sans-serif';
+    color: white;
+    height: 35px;
+    border: 0;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.translate {
+    width: 120px;
+    background-color: transparent; /* Usare `transparent` invece di colore esadecimale trasparente */
+    border: 1px solid white;
+}
+
+.sign-in {
+    width: 90px;
+    background-color: rgb(219, 0, 0);
+}
