@@ -46,10 +46,6 @@ h6{
     font-weight: 600;
 }
 
-.email-input:hover{
-
-}
-
 .get-started:hover{
     background-color: hsl(0, 100%, 33%);
     color: white;

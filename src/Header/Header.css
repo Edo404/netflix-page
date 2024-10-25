@@ -34,6 +34,10 @@
     border: 1px solid white;
 }
 
+.translate:hover {
+    background-color: hsl(0, 0%, 85%, 0.5); /* Usare `transparent` invece di colore esadecimale trasparente */
+}
+
 .sign-in {
     width: 90px;
     background-color: rgb(219, 0, 0);
