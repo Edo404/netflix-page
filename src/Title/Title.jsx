@@ -1,3 +1,4 @@
+import './Title.css'
 
 function Title(){
     return(
@@ -6,7 +7,7 @@ function Title(){
             <h4>Starts at EUR 6.99. Cancel anytime.</h4>
             <h6>Ready to watch? Enter your email to create or restart your membership.</h6>
             <div className="email">
-                <input type="text" className="email-input" />
+                <input type="text" className="email-input" value="Email address"/>
                 <button className="get-started">Get Started</button>
             </div>
         </div>
